@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu về Gundam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .gundam-model {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .gundam-model img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Giới Thiệu về Gundam</h1>
+</header>
+
+<nav>
+    <a href="#about">Giới Thiệu</a>
+    <a href="#models">Mô Hình Gundam</a>
+    <a href="#movies">Các Bộ Phim</a>
+    <a href="#place">Địa Điểm Mua</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Gundam là gì?</h2>
+        <p>
+            Gundam là một loạt các bộ phim hoạt hình và các sản phẩm media, bao gồm mô hình lắp ráp, trò chơi và sách, xoay quanh các câu chuyện về những chiếc robot khổng lồ có tên gọi là "Mobile Suit Gundam". Gundam được sáng tạo bởi Yoshiyuki Tomino và được ra mắt lần đầu tiên vào năm 1979 dưới dạng một bộ phim hoạt hình.
+       <iframe width="500" height="300" src="https://www.youtube.com/embed/Ueux_ZHNdO0"</iframe>
+        </p>
+    </section>
+
+    <section id="models">
+        <h2>Một số mô hình Gundam nổi bật</h2>
+        <div class="gundam-model">
+            <div>
+                <img src="data:image/jpeg;base64,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" alt="Gundam RX-78-2">
+                <h3>RX-78-2 Gundam</h3>
+                <p>RX-78-2 Gundam là mô hình Gundam nổi tiếng nhất, được biết đến trong bộ phim Gundam gốc. Đây là chiếc Mobile Suit huyền thoại trong loạt anime Gundam.</p>
+            </div>
+            <div>
+                <img src="data:image/jpeg;base64,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" alt="Gundam Unicorn">
+                <h3>Unicorn Gundam</h3>
+                <p>Unicorn Gundam là một chiếc Mobile Suit trong loạt phim "Mobile Suit Gundam Unicorn". Đây là một trong những mô hình hiện đại và được yêu thích nhiều trong cộng đồng fan.</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo22TNb1dXaCJviLKr86QaKMaiPjxXnXq0EA&s" alt="Gundam 00">
+                <h3>Gundam 00</h3>
+                <p>Gundam 00 đến từ loạt anime "Mobile Suit Gundam 00", được biết đến với thiết kế hiện đại và mạnh mẽ, với các câu chuyện hấp dẫn về những cuộc chiến trong tương lai.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies">
+        <h2>Các Bộ Phim Gundam</h2>
+        <ul>
+            <li><strong>Mobile Suit Gundam (1979)</strong>: Bộ phim đầu tiên trong loạt Gundam, giới thiệu về thế giới của Mobile Suits và các cuộc chiến tranh vũ trụ.</li>
+            <li><strong>Mobile Suit Gundam Wing (1995)</strong>: Là một trong những series Gundam nổi tiếng nhất với những chiến đấu gay cấn và cốt truyện phức tạp.</li>
+            <li><strong>Mobile Suit Gundam Unicorn (2010)</strong>: Một loạt phim Gundam được đánh giá cao về đồ họa và nội dung, tiếp tục câu chuyện của loạt Gundam.</li>
+            <li><strong>Mobile Suit Gundam 00 (2007)</strong>: Câu chuyện về những chiến binh dùng Gundam để ngừng các cuộc chiến tranh toàn cầu trong tương lai gần.</li>
+        </ul>
+    </section>
+    <section id="place">
+    <h2>Địa Điểm Mua</h2>
+    <p><a href="https://www.nshop.com.vn/">Nshop</a> (địa chỉ: 239 Đ.Trần Quang Khải, Phường Tân Định, Quận 1, Hồ Chí Minh) SĐT: 0372 766 239</p>
+    <p><a href="https://www.facebook.com/gundamstorevn">GundamStore VN</a>(Địa chỉ: 
+1211 Phạm Văn Bạch phường 12 quận Gò Vấp, Ho Chi Minh City, Vietnam) SĐT: 093 595 06 49</p>
+     <p><a href="https://www.facebook.com/89gundam">89gundam </a>(Địa chỉ: 393B Cộng Hòa P.13 Q.Tân Bình, Ho Chi Minh City, Vietnam ) SĐT: 093 478 76 85</p>
+      <p><a href="https://www.facebook.com/GUNDAMVNBUILDSTORE">C3 Gundam VN Build Store</a>(Địa chỉ: 95 Minh Phụng P.9 Q.6, Ho Chi Minh City, Vietnam) SĐT:098 345 35 35</p>
+    </section>
+</div>
+</body>
+</html>
